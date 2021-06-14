@@ -1,3 +1,19 @@
+## Install process
+
+1. git clone url
+2. Composer update
+3. copy .env.example .env
+4. php artisan key:generate
+5. env file open and update Database name
+6. php artisan migrate
+7. php artisan serve
+
+Then Run your local server http://127.0.0.1:8000/
+
+Thank  you for install your application
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
